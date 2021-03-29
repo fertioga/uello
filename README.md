@@ -5,7 +5,6 @@
 # Hospedado na Vercel
 >[aqui](https://uello.vercel.app/)
 
->chrome://extensions/?id=lfhmikememgdcahcdlaciloancbhjino
 # Como executar
 > Para executar o projeto você precisa colocar o token de acesso do [MapBox](https://www.mapbox.com/) dentro do arquivo:
  **/config/dev.env.js**
