@@ -2,6 +2,10 @@
 
 > Projeto Uello Vuejs desenvolvido baseado no layout: [Layout](https://www.figma.com/file/gsOJ2Q61x3jnVKC50nfR3X/teste-front-end?node-id=0%3A1)
 
+# Hospedado na Vercel
+>[aqui](https://uello.vercel.app/)
+
+>chrome://extensions/?id=lfhmikememgdcahcdlaciloancbhjino
 # Como executar
 > Para executar o projeto você precisa colocar o token de acesso do [MapBox](https://www.mapbox.com/) dentro do arquivo:
  **/config/dev.env.js**
