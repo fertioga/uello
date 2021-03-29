@@ -1,13 +1,22 @@
-# projeto
+# Projeto
 
-> Projeto Uello Vuejs
-A Chave do MapaBox está no arquivo /config/dev.env.js OU prod.env.js
+> Projeto Uello Vuejs desenvolvido baseado no layout: [Layout](https://www.figma.com/file/gsOJ2Q61x3jnVKC50nfR3X/teste-front-end?node-id=0%3A1)
+
+# Como executar
+> Para executar o projeto você precisa colocar o token de acesso do [MapBox](https://www.mapbox.com/) dentro do arquivo:
+ **/config/dev.env.js**
+ OU 
+ **/config/prod.env.js**
+na chave:
+``` bash
 Chave: VUE_APP_MAPBOX_KEY
 
-> Foi usado uma API teste no Dummy (https://dummyapis.com/):
-https://hub.dummyapis.com/vj/mmqGLU6
+```
+# API Fake
+> Foi usado uma API fake teste no Dummy [Api](https://hub.dummyapis.com/vj/mmqGLU6):
 
 Onde retornam os seguintes dados (aleatorios):
+``` bash
 [
   {
     "status": 3,
@@ -21,6 +30,7 @@ Onde retornam os seguintes dados (aleatorios):
     "cidade": "Sacramento"
   }
 ]
+```
 
 O acesso a API é feito no arquivo: src/Vuex/Status/vuex.js
 
